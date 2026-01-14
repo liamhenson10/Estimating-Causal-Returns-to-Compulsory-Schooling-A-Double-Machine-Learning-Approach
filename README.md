@@ -52,8 +52,7 @@ Key features of the empirical approach:
 
 ## Reproducibility
 
-The analysis is fully reproducible using the provided R Markdown file.  
-Due to data size and licensing restrictions, raw survey data are not included in the repository. Instructions for data access and preprocessing are documented in the code.
+The analysis is fully reproducible using the provided R Markdown file.
 
 ---
 

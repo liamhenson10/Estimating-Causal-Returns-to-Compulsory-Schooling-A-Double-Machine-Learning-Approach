@@ -50,9 +50,7 @@ Key features of the empirical approach:
 - Estimates are robust across learners and cross-fitting schemes in samples with strong first-stage compliance.
 - Results suggest that linear IV models may understate returns when treatment effects are nonlinear.
 
----
 
-## Repository Structure
 ---
 
 ## Reproducibility

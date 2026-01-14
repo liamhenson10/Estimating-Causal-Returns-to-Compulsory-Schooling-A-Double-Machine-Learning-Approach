@@ -1,6 +1,3 @@
-# Estimating-Causal-Returns-to-Compulsory-Schooling-A-Double-Machine-Learning-Approach
-This project estimates the causal effect of compulsory schooling laws on earning in the U.K. using double machine learning
-
 # Estimating Causal Returns to Compulsory Schooling using Double Machine Learning
 
 This repository contains the code and paper for an applied econometric analysis estimating the **causal effect of compulsory schooling laws on earnings in the United Kingdom**. The project exploits exogenous variation from historical changes in the minimum school-leaving age and applies **interactive IV double machine learning (DML)** to estimate local average treatment effects for policy-affected individuals.

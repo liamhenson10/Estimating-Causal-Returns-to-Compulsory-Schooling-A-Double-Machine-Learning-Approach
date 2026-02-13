@@ -3,8 +3,8 @@
 This repository contains the code and paper for an applied econometric analysis estimating the causal effect of compulsory schooling laws on earnings in the United Kingdom. The project exploits exogenous variation from historical changes in the minimum school-leaving age and applies interactive insturment variable (IV) double machine learning (DML) to estimate local average treatment effects for policy-affected individuals.
 
 The analysis focuses on two major reforms:  
-- the increase in the minimum school-leaving age from 14 to 15 (1947 in Great Britain, 1957 in Northern Ireland), and  
-- the increase from 15 to 16 in 1972.
+- The increase in the minimum school-leaving age from 14 to 15 (1947 in Great Britain, 1957 in Northern Ireland)
+- The increase from 15 to 16 in 1972 (Simultaneously in Great Britain and Northern Ireland) .
 
 ---
 
@@ -35,8 +35,8 @@ The causal parameter of interest is the Local Average Treatment Effect (LATE) of
 Key features of the empirical approach:
 - Interactive IV framework targeting LATE
 - Double machine learning estimation to debias regularized nuisance functions
-- Flexible learners including Random Forests, XGBoost, and Elastic Net
-- Cross-fitting and cross-validation acorss base learners to asses robustness in the estimation protocol
+- Adressing esimuation robustness using different base learners including Random Forests, XGBoost, and Elastic Net
+- Cross-fitting and cross-validation acorss eahc choice of base learning in the estimation protocol
 - Separate estimation by reform and region to study heterogeneity
 
 ---
@@ -46,14 +46,14 @@ Key features of the empirical approach:
 - Additional compulsory education induced by the 1947/1957 reforms led to large positive earnings effects for marginal students (approximately 20–35%).
 - Returns to compulsory education were smaller for the 1972 reform, consistent with a narrower set of affected students.
 - Estimates are robust across learners and cross-fitting schemes in samples with strong first-stage compliance.
-- Results suggest that linear IV models may understate returns when treatment effects are nonlinear.
+- Results suggest that linear IV models may understate causal returns to compliers when treatment effects are nonlinear.
 
 
 ---
 
 ## Reproducibility
 
-The analysis is fully reproducible using the provided R Markdown file and the U.K. data using the link above. 
+The analysis is fully reproducible using the provided R Markdown file and the data using the link above. 
 
 ---
 
